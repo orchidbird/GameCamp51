@@ -1,0 +1,7 @@
+https://github.com/orchidbird/GameCamp51.git
+
+Title
+조작
+선택지
+남자 > 여자
+Main화면 구성
