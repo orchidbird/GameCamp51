@@ -24,7 +24,7 @@ public class TextManager : MonoBehaviour
 
         if (number == 1)
         {
-            text.text = "응애(이거 뭐야?)";
+            text.text = "응애(이거 뭐야?)enter키를 누르시오";
         }
         else if(number == 2)
         {
@@ -32,7 +32,7 @@ public class TextManager : MonoBehaviour
         }
         else if (number == 3)
         {
-            text.text = "한 달 뒤...";
+            text.text = "일년 뒤...";
         }
         else if (number == 4)
         {
