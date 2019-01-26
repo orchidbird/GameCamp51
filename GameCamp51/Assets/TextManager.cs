@@ -24,15 +24,23 @@ public class TextManager : MonoBehaviour
 
         if (number == 1)
         {
-            text.text = "안녕!";
+            text.text = "응애(이거 뭐야?)";
         }
         else if(number == 2)
         {
-            text.text = "안녕!2";
+            text.text = "응애?(저놈들은 뭐야?)";
         }
         else if (number == 3)
         {
-            text.text = "안녕!3";
+            text.text = "한 달 뒤...";
+        }
+        else if (number == 4)
+        {
+            text.text = "응애으앙앵(뭐야 저걸 되게 잡고싶네)";
+        }
+        else if (number == 5)
+        {
+            text.text = "응애!(이걸 잡자!)";
         }
     }
 }
