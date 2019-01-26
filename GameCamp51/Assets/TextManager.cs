@@ -18,7 +18,8 @@ public class TextManager : MonoBehaviour{
         if (Input.GetKeyDown(KeyCode.Return)){number++;}
         
         if (number >= lines.Length) return;
-        if (lines[number] == "Money"){
+        var newString = lines[number];
+        if (newString == "Money"){
             var money = Random.Range(0, 6);
             if(money == 0)
                 GameManager.money += 10000;
@@ -33,6 +34,8 @@ public class TextManager : MonoBehaviour{
             else if(money == 5)
                 GameManager.money += 1000000;
             number++;
+        }else if (newString.StartsWith("선택")){
+            var choice = newString.Split('\t');
         }else
             text.text = lines[number];
     }
