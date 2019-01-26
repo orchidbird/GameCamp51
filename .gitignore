@@ -55,7 +55,6 @@ ehthumbs.db
 # ================== #
 .idea/
 Assets/Plugins/Editor*
-
 Assets/~/
 Assets/Editor/PanicButton/reloader.cs
 ProjectSettings/ProjectVersion.txt
