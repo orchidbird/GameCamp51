@@ -1,22 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-
-public class button : MonoBehaviour
-{
-    public void StartBtn()
-    {
+public class button : MonoBehaviour{
+    public void StartBtn(){
         Debug.Log("StartBtn");
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Main");
     }
 
-    public void QuitBtn()
-    {
+    public void QuitBtn(){
         Application.Quit();
     }
-   
-
 }
