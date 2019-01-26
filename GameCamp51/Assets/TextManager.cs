@@ -42,5 +42,6 @@ public class TextManager : MonoBehaviour
         {
             text.text = "응애!(이걸 잡자!)";
         }
+        
     }
 }
