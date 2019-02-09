@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 9891
+  controlID: 11950
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 9892
+  controlID: 11951
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 9893
+  controlID: 11952
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 0
     width: 790
     height: 452
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
@@ -769,19 +769,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 46
   m_LastFolders:
-  - Assets/Resources
+  - Assets
   m_LastFoldersGridSize: 46
   m_LastProjectPath: C:\Users\user\Documents\GitHub\GameCamp51\GameCamp51
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a0b0000
-    m_LastClickedID: 2922
+    m_SelectedIDs: 6c090000
+    m_LastClickedID: 2412
     m_ExpandedIDs: 000000006c09000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -835,10 +835,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: cc0b0000
-    m_LastClickedInstanceID: 3020
+    m_SelectedInstanceIDs: 56e3ffff
+    m_LastClickedInstanceID: -7338
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000c0abf5fff43900001e310000b03e0000ae280000c02c000066410000d8a4010060420000a830000094660000aa690000a8eb0000803c00003e390000740d0600180e0600902d0000240e0100f40203000c9b00008a41000016070000bc4d0000e63f0000004b00005243000070330000e008000096390000e63a0000fa410000ac0a00008649000020f30500c4500000343b00009e4c0000e42e00000030000022310000e63b00000a340000d2480000d4480000443b0000bc470000ba4c00004c490000ee420000564d0000b6580000745000007a510000c64f000000000000e04d00006c480000aa4d0000fe490000c8550000564000009c4100007c55000088530000de3d00002e520000b20a0000a4310000980b0000640b0000
+    m_ExpandedInstanceIDs: c6230000c0abf5fff43900001e310000b03e0000ae280000c02c000066410000d8a4010060420000a830000094660000aa690000a8eb0000803c00003e390000740d0600180e0600902d0000240e0100f40203000c9b00008a41000016070000bc4d0000e63f0000004b00005243000070330000e008000096390000e63a0000fa410000ac0a00008649000020f30500c4500000343b00009e4c0000e42e00000030000022310000e63b00000a340000d2480000d4480000443b0000bc470000ba4c00004c490000ee420000564d0000b6580000745000007a510000c64f0000e04d00006c480000aa4d0000fe490000c8550000564000009c4100007c55000088530000de3d00002e520000b20a0000a4310000980b0000640b000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
