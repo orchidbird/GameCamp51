@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour{
     public TextManager TM;
@@ -11,9 +10,9 @@ public class GameManager : MonoBehaviour{
 
     public void SetChoice(string yesText, string noText){
         Choice.gameObject.SetActive(true);
-        var texts = Choice.GetComponentsInChildren<Text>();
+        /*var texts = Choice.GetComponentsInChildren<Text>();
         texts[0].text = yesText;
-        texts[1].text = noText;
+        texts[1].text = noText;*/
     }
     public void DoYes(){
         TM.ClubText.gameObject.SetActive(true);
