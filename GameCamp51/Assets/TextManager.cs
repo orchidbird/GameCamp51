@@ -52,6 +52,9 @@ public class TextManager : MonoBehaviour{
             FriendText.gameObject.SetActive(true);
             GameManager.friend = random == 2;
             FriendText.text = "친구: " + (GameManager.friend ? "있음" : "없음");
+        }else if (newString.StartsWith("친구")){
+            var texts = newString.Split('\t');
+            MainText.text = GameManager.friend ? texts[2] : texts[1];
         }else
             MainText.text = lines[number];
     }
