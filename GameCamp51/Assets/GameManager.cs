@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour{
     public TextManager TM;
     public GameObject Choice;
     public static int money;
-    public static bool friend;
+    public static int friends;
 
     public enum SelectionType{Club}
 

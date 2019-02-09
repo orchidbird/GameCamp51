@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -50,11 +51,14 @@ public class TextManager : MonoBehaviour{
             var texts = newString.Split('\t');
             MainText.text = texts[random];
             FriendText.gameObject.SetActive(true);
-            GameManager.friend = random == 2;
-            FriendText.text = "친구: " + (GameManager.friend ? "있음" : "없음");
+            if(random == 2)
+            GameManager.friends++;
+            FriendText.text = "친구: " + GameManager.friends;
         }else if (newString.StartsWith("친구")){
             var texts = newString.Split('\t');
-            MainText.text = GameManager.friend ? texts[2] : texts[1];
+            MainText.text = GameManager.friends > 0 ? texts[1] : texts[2];
+        }else if (newString == "엔딩"){
+            SceneManager.LoadScene("Title");
         }else
             MainText.text = lines[number];
     }
