@@ -1,11 +1,17 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class SoundManager : MonoBehaviour{
-     public AudioSource audio;
-
-     void Update(){
-          if (Input.GetMouseButtonDown(0)){
-               audio.PlayOneShot(audio.clip);
-          }
-     }
+public class SoundManager : MonoBehaviour
+{
+    public AudioSource audio;
+     // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("Clicked.");
+            audio.PlayOneShot(audio.clip);
+        }
+    }
 }
